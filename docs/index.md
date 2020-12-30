@@ -9,7 +9,7 @@ BYU Castles ([paper](https://arxiv.org/) presented at [WACV2021](http://wacv2021
 
 ### Download
 
-See [GitHub repo](https://github.com/byu-vision/castles) for instructions
+See [GitHub repo](https://github.com/byuvision/castles/blob/main/README.md#download) for instructions
 
 ### Citation
 
@@ -19,4 +19,4 @@ citation
 
 ### Contact
 
-Please open an issue on GitHub
+For questions about the dataset or experiments, please open an issue on GitHub _(How do we want to be contacted?)_
