@@ -4,6 +4,11 @@ This is the official code repository for our WACV 2021 paper.
 
 ## Dataset
 
+| Images | Castles | Countries | Construction Dates |
+| :---: | :----: | :----: | :----: |
+| 772,927 | 2412 | 93 | 85% coverage |
+
+### Download
 
 ## Experiments
 
