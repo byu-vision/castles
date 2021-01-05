@@ -10,11 +10,22 @@ This is the official code repository for our WACV 2021 paper.
 
 ### Download
 
-Download the dataset as follows:
+We've provided a [python script](download.py) to download the data. The download process requires ~100 GB of disk space. Run the download script:
+```bash
+python download.py
+```
+This will download several file fragments and recompile them into a single `castles.tgz` file, checking `md5` hashes along the way. Once the process is complete, you can remove the fragments:
+```bash
+rm *.tgz_fragment*
+```
+Then extract the data from `castles.tgz`:
+```bash
+tar xzf castles.tgz
+```
 
+Additional metadata, such as location and construction dates, can be found in [metadata.json](metadata.json).
 
-Please verify the md5sum checksums as follows:
-`94a470ba1f7b6cb0611bddb9c635e6ed castles.tgz`
+If you prefer to do the download manually, check `download.py` for remote urls and expected `md5` hashes.
 
 
 ## Experiments
