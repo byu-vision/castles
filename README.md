@@ -4,6 +4,8 @@ This is the official code repository for our WACV 2021 paper.
 
 ## Dataset
 
+![Castle Mosaic](docs/castle-mosaic.jpg)
+
 | Images | Castles | Countries | Construction Dates |
 | :---: | :----: | :----: | :----: |
 | 772,927 | 2412 | 93 | 85% coverage |
@@ -27,6 +29,9 @@ Additional metadata, such as location and construction dates, can be found in [m
 
 If you prefer to do the download manually, check `download.py` for remote urls and expected `md5` hashes.
 
+#### Note
+
+The data is provided for research purposes. We do not own the rights to the images.
 
 ## Experiments
 
